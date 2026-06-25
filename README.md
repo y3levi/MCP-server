@@ -1,4 +1,4 @@
-# bibi_Blox
+# MCP server
 
 Projeto Roblox organizado com Rojo, suporte local a assets/presets e um MCP server simples para consultar a estrutura do projeto.
 
