@@ -1,0 +1,50 @@
+{
+  "className": "Model",
+  "children": [
+    {
+      "name": "CloudEmitterPlane",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "Transparency": 1,
+        "Size": [1000, 1, 700],
+        "Position": [0, -16, 180]
+      },
+      "children": [
+        {
+          "name": "CloudLayerLower",
+          "className": "ParticleEmitter",
+          "properties": {
+            "Texture": "rbxasset://textures/particles/smoke_main.dds",
+            "Rate": 18,
+            "LightInfluence": 0,
+            "LockedToPart": false
+          }
+        },
+        {
+          "name": "CloudLayerMiddle",
+          "className": "ParticleEmitter",
+          "properties": {
+            "Texture": "rbxasset://textures/particles/smoke_main.dds",
+            "Rate": 20,
+            "LightInfluence": 0,
+            "LockedToPart": false
+          }
+        },
+        {
+          "name": "CloudLayerUpper",
+          "className": "ParticleEmitter",
+          "properties": {
+            "Texture": "rbxasset://textures/particles/smoke_main.dds",
+            "Rate": 16,
+            "LightInfluence": 0,
+            "LockedToPart": false
+          }
+        }
+      ]
+    }
+  ]
+}

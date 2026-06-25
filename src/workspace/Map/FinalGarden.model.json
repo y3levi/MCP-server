@@ -1,0 +1,6 @@
+{
+  "className": "Model",
+  "children": [
+    { "name": "Ground", "className": "Part", "properties": { "Anchored": true, "Size": [80, 1, 80], "Position": [0, 0, 340], "Color": [0.88, 0.94, 0.88] } }
+  ]
+}

@@ -1,0 +1,2 @@
+-- Ponto de entrada do cliente.
+-- A interface e interações serão adicionadas em etapas futuras.

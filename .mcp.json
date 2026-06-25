@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "bibi-blox-assets": {
+      "command": "node",
+      "args": [
+        "mcp/server.mjs"
+      ]
+    }
+  }
+}

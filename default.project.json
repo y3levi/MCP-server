@@ -1,0 +1,65 @@
+{
+  "name": "bibi",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "Assets": {
+        "$path": "assets"
+      },
+      "Packages": {
+        "$path": "packages"
+      },
+      "Presets": {
+        "$path": "presets"
+      },
+      "Shared": {
+        "$path": "src/shared"
+      }
+    },
+    "ServerScriptService": {
+      "Server": {
+        "$path": "src/server"
+      }
+    },
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "Client": {
+          "$path": "src/client"
+        }
+      }
+    },
+    "Lighting": {
+      "$properties": {
+        "Technology": "Future",
+        "ClockTime": 16.5,
+        "Brightness": 2,
+        "Ambient": [0.73, 0.67, 0.77],
+        "OutdoorAmbient": [0.62, 0.66, 0.8]
+      },
+      "MapAtmosphere": {
+        "$className": "Atmosphere",
+        "$properties": {
+          "Density": 0.25,
+          "Haze": 1.2,
+          "Glare": 0.05,
+          "Color": [0.88, 0.91, 0.98],
+          "Decay": [0.82, 0.74, 0.92]
+        }
+      }
+    },
+    "Workspace": {
+      "$path": "src/workspace",
+      "Terrain": {
+        "$className": "Terrain",
+        "Clouds": {
+          "$className": "Clouds",
+          "$properties": {
+            "Cover": 0.35,
+            "Density": 0.4,
+            "Color": [1, 0.94, 0.97]
+          }
+        }
+      }
+    }
+  }
+}
